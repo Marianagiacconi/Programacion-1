@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+body{
+    margin:none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-enlace{
+    background: black;
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-enlace:hover{
+    background: rgb(0, 0, 0);
+    color: blanchedalmond;
+}
+
+.nav-link{
+    margin-left:30px;
+    color:white;
+}
+
+div.buscador {
+
+    display: inline-block
+   
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.conteiner{
+    background-color: rgb(250, 244, 244);
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background-image: url("images/thumb2-white-vintage-background-vintage-floral-pattern-gray-damask-pattern-floral-patterns-vintage-backgrounds.png");
+}
+
+input.buscar {
+
+	background: white;
+	outline: none;
+	padding: 5px;
+    border-radius: 10px;
+    width: 600px;
+    height: 30px;
+   margin-top: 5px;
+    margin-left: 30px;
+}
+input.image_buscar {
+	width: 20px;
+	border: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.material-icons{
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 4px;
+}
+.buttonconf{
+    background-color: #000000;
+    border: none;
+    
+}
+.buttonuser{
+    background-color: #000000;
+    border: none;
+}
+.mainContent{
+    color: #000;
+}
+
+
+h1{
+    font-family: 'Charm';
+    font-size: 48px;
+    font-style: normal;
+    margin-left: 20px;
+    
+}
+h2{
+    font-size: 16px;
+    font-style: bold;
+    font-family: 'Inter';
+
+}
+h5{
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Inter';
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: rgb(228, 223, 223);
+    
+}
+
+
+.buttonregister{
+    color: white;
+    background-color: #000;
+    height: 30px;
+    width: 120px;
+    align-self: right;
+    border-radius: 10px;
+
+}
+
+.btn-group{
+    
+    float: right;
+   
+}
+
+.buttonIniciasesion{
+    color: white;
+    background-color: #000;
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+}
+.row{
+    
+height: 200px;
+margin: 10px;
+
+}
+
+.col{
+
+margin: 20px;
+padding: 30px;
+}
+.clasificacion{
+direction: ltr;/* right to left */
+unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+.buttonir{
+border: 1px solid rgb(255, 255, 255);
+color: #253e83;
+text-align: center;
+margin-left: 150px;
+width: 30px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: yellow;
+  }
+
+  
+label:hover,
+label:hover ~ label {
+  color: gray;
+}
+
+input[type="radio"]:checked ~ label {
+  color: gray;
+}
+.a{
+    color:white;
+    margin: 5px;
+}

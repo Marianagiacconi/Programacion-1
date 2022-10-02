@@ -1,0 +1,30 @@
+
+button.btn-default{
+   
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    border:1px solid black;
+    
+}
+body{
+width: 100vh;
+height: 100vh;
+justify-content: center;
+display: inline;
+}
+#formulario{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    display: block;
+    
+}
+
+.cont{
+    
+    height: 100vh;
+    display:contents;
+    justify-content: center;
+}
