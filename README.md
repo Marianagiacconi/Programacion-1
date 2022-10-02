@@ -1,7 +1,6 @@
 # Programming 1 #
 ### - Group I: ###
   - Abel Carrizo
-  - Nicolas Carratala
   - Nicolas Panella
   - Mariana Giacconi
 
