@@ -4,6 +4,7 @@ body{
     margin:none;
     width: 100vw;
     height: 100vh;
+    background-color:rgb(238, 233, 222);
 }
 
 .nav-enlace{
@@ -48,7 +49,7 @@ input.buscar {
     margin-left: 30px;
 }
 input.image_buscar {
-	width: 20px;
+	width: 15px;
 	border: none;
     color: rgb(0, 0, 0);
     display: inline-block;
@@ -75,10 +76,11 @@ input.image_buscar {
 
 
 h1{
-    font-family: 'Charm';
-    font-size: 48px;
+    
+    font-size: 30px;
     font-style: normal;
-    margin-left: 20px;
+    text-align: center;
+    padding: 10px 10px;
     
 }
 h2{
@@ -97,8 +99,8 @@ h5{
 p{
     font-family: 'Inter';
     font-style: normal;
-    background-color: rgb(228, 223, 223);
-    
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 
@@ -129,23 +131,64 @@ p{
     
 height: 200px;
 margin: 10px;
+border-radius: 10px;
 
 }
+.cont{
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    width: auto;
+    height: auto;
+    
+    
+}
+.cont1{
+    margin-left: 50px;
+    border-radius: 10px;
+    display: flex;
+    
 
-.col{
+}
+button.col4{
+    background-color: #000;
+}
+.col-4{
 
 margin: 20px;
-padding: 30px;
+margin-left: 140px;
+border: none;
+border-radius: 10px;
+background-color: #000;
+color:rgb(255, 255, 255)
+}
+.col{
+    margin: 20px;
+    
 }
 .clasificacion{
-direction: ltr;/* right to left */
-unicode-bidi: bidi-override;/* bidi de bidireccional */
+    direction: ltr;/* right to left */
+    unicode-bidi: bidi-override;/* bidi de bidireccional */
+    width: 170px;
+    height: 100px;
 }
-.buttonir{
+.ir{
+border: 1px solid rgb(0, 0, 0);
+color: #ffffff;
+background-color: rgb(0, 0, 0);
+border-radius: 10px;
+margin-top: 5px;
+margin-left: 90px;
+width:80px;
+height:25px;
+
+
+}
+.p2{
 border: 1px solid rgb(255, 255, 255);
 color: #253e83;
 text-align: center;
-margin-left: 150px;
+margin-left: 200px;
 width: 30px;
 }
 
@@ -182,4 +225,20 @@ input[type="radio"]:checked ~ label {
 }
 .a{
     color:white;
+}
+.subirpoem{
+    width: 300px;
+    height: 150px;
+    border: none;
+   align-items: baseline;
+   border-radius: 10px;
+   border:1px solid #000;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border:1px solid #000;
+    
 }

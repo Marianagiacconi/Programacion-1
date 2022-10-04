@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 html {
     width: 100%;
     height: 100%;
@@ -91,6 +92,9 @@ div.form-header{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-left: 20px;
   }
   .two .form-group label {
     color: #FFFFFF;
@@ -250,4 +254,8 @@ div.form-header{
   .cp-fab {
     background: #FFFFFF !important;
     color: #000000 !important;
+  }
+
+  h1{
+    text-align: center;
   }
