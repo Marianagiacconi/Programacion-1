@@ -15,8 +15,31 @@
    
     <nav class="navbar navbar-dark bg-black">
         <div class="container-sm">
-          <a class="nav-enlace">Poemas</a>
-          <a href="#" class="nav-enlace">Género</a>
+            <button type="button" class="btn btn-black dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Poemas</span>
+              </button>
+          
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Acción #1</a></li>
+                <li><a href="#">Acción #2</a></li>
+                <li><a href="#">Acción #3</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Acción #4</a></li>
+              </ul>
+              <button type="button" class="btn btn-black dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                  <span class="sr-only">Género</span>
+              </button>
+            
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Acción #1</a></li>
+                  <li><a href="#">Acción #2</a></li>
+                  <li><a href="#">Acción #3</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Acción #4</a></li>
+                </ul>
+              
           <a href="#" class="nav-enlace">Recientes</a>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">

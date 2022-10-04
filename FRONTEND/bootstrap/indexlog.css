@@ -230,3 +230,6 @@ input[type="radio"]:checked ~ label {
 	background:#262727;
 	font-weight:bold;
 }
+.sr-only{
+    color: #fff;
+}
