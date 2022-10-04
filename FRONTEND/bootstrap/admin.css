@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+body{
+    margin:none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 236, 236);
+}
+
+.nav-enlace{
+    background: black;
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-enlace:hover{
+    background: rgb(0, 0, 0);
+    color: blanchedalmond;
+}
+
+.nav-link{
+    margin-left:30px;
+    color:white;
+}
+
+div.buscador {
+
+    display: inline-block
+   
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.buttonconf{
+    background-color: #000000;
+    border: none;
+    
+}
+.buttonuser{
+    background-color: #000000;
+    border: none;
+}
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#000000;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#1d1e1f;
+}
+
+.paginacion ul li .active {
+	background:#262727;
+	font-weight:bold;
+}

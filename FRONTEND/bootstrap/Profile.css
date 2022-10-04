@@ -242,3 +242,34 @@ p{
     border:1px solid #000;
     
 }
+.paginacion {
+	margin:20px 0;
+    background-color: rgb(253, 242, 242);
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#000000;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#1d1e1f;
+}
+
+.paginacion ul li .active {
+	background:#262727;
+	font-weight:bold;
+}

@@ -148,13 +148,18 @@ unicode-bidi: bidi-override;/* bidi de bidireccional */
 display: inline;
 
 }
-.buttonir{
-border: 1px solid rgb(255, 255, 255);
-color: #253e83;
-text-align: center;
-margin-left: 110px;
-width: 30px;
-}
+.ir{
+    border: 1px solid rgb(0, 0, 0);
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 60px;
+    width:80px;
+    height:25px;
+    text-align: center;
+    
+    }
 
 #form {
     width: 250px;
@@ -194,4 +199,34 @@ input[type="radio"]:checked ~ label {
     background-color:rgb(255, 255, 255);
     margin-top: 0px;
     margin-bottom: 40px;
+}
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#000000;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#1d1e1f;
+}
+
+.paginacion ul li .active {
+	background:#262727;
+	font-weight:bold;
 }
